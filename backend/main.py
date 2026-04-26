@@ -8,14 +8,15 @@ from models import Category
 from routers import categories, transactions, exchange, summary
 
 _DEFAULT_CATEGORIES = [
-    ("美食", "expense"),
-    ("出行", "expense"),
-    ("娱乐", "expense"),
-    ("日常", "expense"),
-    ("医疗", "expense"),
-    ("工资", "income"),
-    ("转账", "income"),
-    ("其他", "income"),
+    ("Food", "expense"),
+    ("Travel", "expense"),
+    ("Entertainment", "expense"),
+    ("daily", "expense"),
+    ("Healthcare", "expense"),
+    ("Other", "expense"),
+    ("wages", "income"),
+    ("Bank transfer", "income"),
+    ("Other", "income"),
 ]
 
 
